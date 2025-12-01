@@ -1,0 +1,88 @@
+
+.panel {
+  width: 40%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.panel__title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.panel__textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.panel__buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  flex: 1;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.btn--primary {
+  background: #ffb347;
+  color: #333;
+}
+
+.btn--secondary {
+  background: #8ec5fc;
+  color: #333;
+}
+
+.panel__history {
+  flex: 1;
+  min-height: 160px;
+  max-height: 260px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #444;
+  color: #f4f4f4;
+  font-family: monospace;
+  font-size: 12px;
+  overflow-y: auto;
+}
+
+.panel__history-line {
+  margin-bottom: 4px;
+}
+
+.panel__history-note {
+  color: #ffd580;
+}
+
+.panel__history-empty {
+  color: #aaa;
+}
+
+.panel__output {
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.panel__output-empty {
+  color: #aaa;
+}
