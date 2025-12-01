@@ -1,0 +1,7 @@
+
+.app {
+  display: flex;
+  padding: 24px;
+  min-height: 100vh;
+  gap: 24px;
+}
